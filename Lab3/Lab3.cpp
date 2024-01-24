@@ -62,6 +62,7 @@ void fourthChoice(float A, float B) {
 }
 
 
+
     int main()
 {
         int choice; 
@@ -73,6 +74,7 @@ void fourthChoice(float A, float B) {
 
         if (choice == 1) {
             firstChoice(A, B); 
+            
         }
 
         if (choice == 2) {
