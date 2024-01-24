@@ -26,23 +26,38 @@ void getChoices(float& A, float& B) {
 }
 
 void firstChoice(float A, float B) {
-    cout << "Please enter the first value:";
+    cout << "Choice 1: Please enter the first value:";
     cin >> A;
+
+    cout << "Choice 1: Please enter the second value:";
+    cin >> B;
 
 }
 
 void secondChoice(float A, float B) {
-    cout << "This is proving the second choice ran" << endl;
+    cout << "Choice 2: Please enter the first value:";
+    cin >> A;
+
+    cout << "Choice 2: Please enter the second value:";
+    cin >> B;
     
 }
 
 void thirdChoice(float A, float B) {
-    cout << "This is proving the third choice ran" << endl;
+    cout << "Choice 3: Please enter the first value:";
+    cin >> A;
 
+    cout << "Choice 3: Please enter the second value:";
+    cin >> B;
+    
 }
 
-void fourthChoice(float a, float B) {
-    cout << "This is proving the fourth choice ran" << endl;
+void fourthChoice(float A, float B) {
+    cout << "Choice 4: Please enter the first value:"; 
+    cin >> A; 
+
+    cout << "choice 4: Please enter the second value:"; 
+    cin >> B;
 
 }
 
